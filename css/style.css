@@ -29,7 +29,7 @@ h1 {
 
 .adbox1 {
 	font-family: 'Lora', serif;
-	font-size:15px;
+	font-size:12px;
 	width: 800px;
 	height: 77px;
 	margin: auto;
@@ -41,9 +41,20 @@ h1 {
 	padding-top: 3px;
 }
 
+.adbox2 {
+	font-family: 'Lora', serif;
+	width: 385px;
+	height: 77px;
+	font-size:12px;
+	font-weight: bold;
+	background-color: #2cfffe;
+	margin-right: 5px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
 .container {
 	width: 800px;
-	border-bottom: 1px solid #d8dcdf;
 	margin-bottom: 17px;
 }
 
@@ -53,16 +64,26 @@ h1 {
 
 .center-story {
 	text-align: center;
+	padding-left:18px;
+	padding-right: 18px;
 }
 
 .most-viewed-stories {
-	padding-right: 10px;
+}
+
+.refers-row {
+	border-top: 1px solid #d8dcdf;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+.refer {
 }
 
 .byline {
 	font-family: 'Lora', serif;
 	color: #bababa;
-	font-size: 11px;
+	font-size: 9.5px;
 	font-weight: bold;
 	margin-bottom: 7px;
 }
@@ -87,25 +108,33 @@ h1 {
 }
 
 img {
-	width: 90%;
+	width: 80%;
 	padding-top: 15px;
 }
 
 .caption {
 	font-family: 'Lato', sans-serif;
 	color:#b3b3b3;
-	font-size: 11px;
+	font-size: 10.5px;
 	text-align: left;
-	padding-left: 20px;
-	padding-right: -2px;
+	padding-left: 45px;
+	padding-right: 45px;
 	padding-top: 5px;
-	padding-bottom: 18px;
+	padding-bottom: 10px;
+	font-weight: bold;
 }
 
 h3 {
 	font-family: 'Lora', serif;
-	font-size: 27px;
-	padding: 10px 50px 10px 50px;
+	font-size: 24px;
+	padding: 5px 70px 10px 70px;
+}
+
+h4 {
+	font-family: 'Lora', serif;
+	font-size: 12px;
+	line-height: 14px;
+	padding: 8px 10px 5px 0px;
 }
 
 .center-story .summary {
@@ -114,8 +143,8 @@ h3 {
 	line-height: 14px;
 	padding-bottom: 13px;
 	border-bottom: 1px solid #d8dcdf;
-	padding-left: 28px;
-	padding-right: 28px;
+	padding-left: 40px;
+	padding-right: 40px;
 }
 
 ol {
@@ -123,7 +152,7 @@ ol {
     margin-left: 0px; 
     padding-left:0px;
     font-family: 'Lato', sans-serif;
-    font-size: 12px;
+    font-size: 10.5px;
     padding-top: 10px;
 }
 
@@ -163,4 +192,18 @@ h4 {
 
 .kicker {
 	font-family: 'Lato', sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+}
+
+.footer {
+	background: #333333;
+	font-family: 'Lato', sans-serif;
+	color: #cbcbcb;
+	font-size: 11px;
+	font-weight: bold;
+	height: 20px;
+	text-align: center;
+	padding-top:26px;
+	padding-bottom: 2px;
 }

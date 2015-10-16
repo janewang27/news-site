@@ -1,0 +1,166 @@
+.header {
+	background: #333333;
+	height: 140px;
+	text-align: center;
+}
+
+.nav {
+	padding-top: 30px;
+	word-spacing: 7px;
+	font-family: 'Roboto Condensed', sans-serif;
+	size: 12px;
+}
+
+a {
+	text-decoration: none;
+	color: #2e81b7;
+	font-weight: bold;
+}
+
+h1 {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: white;
+	font-size: 40px;
+	text-transform: uppercase;
+	font-weight: 900;
+	padding-top: 30px;
+	text-align: center;
+}
+
+.adbox1 {
+	font-family: 'Lora', serif;
+	font-size:15px;
+	width: 800px;
+	height: 77px;
+	margin: auto;
+	font-weight: bold;
+	background-color: #2cfffe;
+	vertical-align: center;
+	margin-top: 15px;
+	margin-bottom: 25px;
+	padding-top: 3px;
+}
+
+.container {
+	width: 800px;
+	border-bottom: 1px solid #d8dcdf;
+	margin-bottom: 17px;
+}
+
+.main-sidebar {
+	margin-right: 40px;
+}
+
+.center-story {
+	text-align: center;
+}
+
+.most-viewed-stories {
+	padding-right: 10px;
+}
+
+.byline {
+	font-family: 'Lora', serif;
+	color: #bababa;
+	font-size: 11px;
+	font-weight: bold;
+	margin-bottom: 7px;
+}
+
+.byline span {
+	text-transform: uppercase;
+}
+
+.summary {
+	font-family: 'Lora', serif;
+	font-size: 12px;
+	line-height: 14px;
+	padding-bottom: 13px;
+	border-bottom: 1px solid #d8dcdf;
+}
+
+.kicker {
+	font-family: 'Lato', sans-serif;
+	font-size: 11px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+img {
+	width: 90%;
+	padding-top: 15px;
+}
+
+.caption {
+	font-family: 'Lato', sans-serif;
+	color:#b3b3b3;
+	font-size: 11px;
+	text-align: left;
+	padding-left: 20px;
+	padding-right: -2px;
+	padding-top: 5px;
+	padding-bottom: 18px;
+}
+
+h3 {
+	font-family: 'Lora', serif;
+	font-size: 27px;
+	padding: 10px 50px 10px 50px;
+}
+
+.center-story .summary {
+	font-family: 'Lora', serif;
+	font-size: 12px;
+	line-height: 14px;
+	padding-bottom: 13px;
+	border-bottom: 1px solid #d8dcdf;
+	padding-left: 28px;
+	padding-right: 28px;
+}
+
+ol {
+    counter-reset:li; 
+    margin-left: 0px; 
+    padding-left:0px;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+ol > li {
+    position:relative;
+    margin: 4px 0px 6px 15px;
+    list-style:none;
+    border-bottom: 1px solid #d8dcdf;
+    padding: 6px;
+}
+
+ol > li:before {
+    content:counter(li); 
+    counter-increment:li;
+    position: absolute;
+    top:-2px;
+    left:-30px;
+    width:32px;
+    margin-right:8px;
+    padding:6px;
+    text-align:center;
+}
+
+h2 {
+ 	font-family: 'Roboto Condensed', sans-serif;
+ 	font-size: 25px;
+ 	font-weight: bold;
+ 	text-transform: uppercase;
+ 	letter-spacing: -1px;
+ 	margin-top: 10px;
+ 	margin-bottom: 8px;
+}
+
+h4 {
+	font-family: 'Lora', serif;
+}
+
+.kicker {
+	font-family: 'Lato', sans-serif;
+}
